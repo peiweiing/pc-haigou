@@ -1,0 +1,94 @@
+
+/* 
+页面顶部
+ */
+.header .nbgc{
+    color: #ccc;
+    background-color: #2e2e2e;
+}
+.header .nbgc a{
+    color: #ccc;
+}
+.header .nml{
+    margin-left: -10%;
+}
+.header form{
+    width: 45%;
+}
+.header .ninp{
+    padding: 0;
+}
+.header .ninp input:nth-child(2){
+    width: 26rem;
+    height: 2.4rem;
+    border: none;
+}
+.header .ninp input:nth-child(3){
+    width: 6rem;
+    height: 2.4rem;
+    border: none;
+    color: #fff;
+    background-color:red;
+}
+.header .nshop{
+    width: 9rem;
+    height: 2.4rem;
+    color: #000;
+    border: 1px solid #ccc;
+    align-items: center;
+    justify-content: center;
+}
+.header .f-09rem{
+    font-size: 0.9rem;
+}
+.header .nre{
+    position: relative;
+}
+.header .nhidden{
+    position: absolute;
+    background-color:rgb(245, 245, 245,0.8);
+    height: 26rem;
+    z-index: 9;
+}
+.header .nul{
+    color: #fff;
+    background-color: red;
+}
+.header .null a{
+    color: red;
+}
+
+/* 
+页面轮播图
+ */
+.main{
+    width: 100%;
+    height: 26rem;
+    position: relative;
+    overflow: hidden;
+}
+.main .mtu{
+    width:100%;
+    height:26rem;
+}
+.main .mtu img{
+    width: 100%;
+    height: 100%;
+}
+.main .min{
+    position: absolute;
+    left: 45%;
+    bottom: 1rem;
+}
+.main .min a{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+    border:1px solid rgba(247, 0, 0, 0.6);
+    background-color: rgba(225, 225, 225, 0.6);
+}
+.main .min .active{
+    background-color: red;
+}
