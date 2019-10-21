@@ -57,6 +57,22 @@
 .header .null a{
     color: red;
 }
+.header .tanchu{
+    /* display: none; */
+    width: 18rem;
+    height: 26rem;
+    background-color:#fff;
+    position: absolute;
+    top:0;
+    left: 5.5rem;
+    overflow: hidden;
+}
+.header .tanchu>div{
+    height: 26rem;
+}
+.header .tanchu img{
+    height: 3rem;
+}
 
 /* 
 页面轮播图
@@ -157,4 +173,75 @@
     color:rgb(172, 169, 169);
     font-size: 0.8rem;
     margin-left: 1.4rem;
+}
+
+.fone .fwh{
+    width: 232px;
+    background-color: #fff;
+    display: inline-block;
+}
+.fone .fwh a{
+    width:100%;
+    text-align: center;
+}
+.fone .fwh img{
+    width: 155px;
+    display: inline-block;
+}
+.fone .fwh strong{
+    border: 1px solid #ccc;
+    padding: 0.2rem 1rem;
+    margin: 0.6rem 0;
+}
+
+
+/* 热销产品 */
+.end .ends li{
+    background-color: #fff;
+}
+.end .ends img{
+    width: 292px;
+}
+
+/* 页面底部 */
+.footer img{
+    /* width: 90px; */
+}
+.footer .fimg{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+.footer .saoma img{
+    width: 90px;
+}
+.footer .textcs dl{
+    margin-right: 5rem;
+}
+.footer .textcs dt{
+    margin: 1rem 0;
+    font-size: 0.9rem;
+}
+.footer .textcs dd{
+    color: #999;
+    margin: 0.6rem 0;
+    font-size: 0.8rem;
+}
+.footer .borderlr{
+    justify-content: center;
+    height: 6rem;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.footer .fbgc{
+    color: #757272;
+    background-color: #414141;
+}
+.footer .fbgc div{
+    margin: 0.3rem 0;
+}
+.footer .fbgc p{
+    margin: 0.2rem 0;
+}
+.footer .fbgc a{
+    color: #757272;
 }

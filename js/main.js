@@ -1,33 +1,4 @@
 
-// $(function(){
-//     //每个固定的时间移动图片
-//     var timer = setInterval(picLoop,1000);
-//     var index = 0;
-//     function picLoop(){
-//         index++;
-//         if (index==8) {index=0;}
-//         $(".main .mtu").animate({"left":-790*index},300);
-//         $(".main a").eq(index).css("background-color","red").siblings().css("background-color","rgba(100,100,100,0.3)");
-//     }
-
-//     //定时器的控制
-//     $(".main").hover(function(){
-//         clearInterval(timer);
-//         $(".left").show();
-//         $(".right").show();
-//     },function(){
-//         timer = setInterval(picLoop,1000);
-//         $(".left").hide();
-//         $(".right").hide();
-//     })
-
-//     $(".main a").mouseover(function(){
-//         $(this).css("background-color","red").siblings().css("background-color","rgba(100,100,100,0.3)");
-//         index = $(this).index();
-//         $(".main .mtu").animate({"left":-790*index},300);
-//     })
-
-// })
 $(document).ready(function(){
     var i = 0 ;
     var timer;

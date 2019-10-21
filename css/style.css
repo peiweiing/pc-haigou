@@ -180,6 +180,9 @@
 .ml-2rem{
     margin-left: 2rem!important;
 }
+.ml-3rem{
+    margin-left: 3rem!important;
+}
 .ml-4rem{
     margin-left: 4rem!important;
 }
@@ -403,6 +406,18 @@
 /* 
 盒子内边距
  */
+.p-02rem{
+    padding: 0.2rem!important;
+}
+.p-04rem{
+    padding: 0.4rem!important;
+}
+.p-06rem{
+    padding: 0.6rem!important;
+}
+.p-08rem{
+    padding: 0.8rem!important;
+}
 .p-1rem{
     padding: 1rem!important;
 }
@@ -419,11 +434,26 @@
     padding: 5rem!important;
 }
 
+.pl-02rem{
+    padding-left: 0.2rem!important;
+}
+.pl-04rem{
+    padding-left: 0.4rem!important;
+}
+.pl-06rem{
+    padding-left: 0.6rem!important;
+}
+.pl-08rem{
+    padding-left: 0.8rem!important;
+}
 .pl-1rem{
     padding-left: 1rem!important;
 }
 .pl-2rem{
     padding-left: 2rem!important;
+}
+.pl-3rem{
+    padding-left: 3rem!important;
 }
 .pl-4rem{
     padding-left: 4rem!important;
@@ -469,6 +499,18 @@
 }
 .pt-6rem{
     padding-top: 6rem!important;
+}
+.pb-02rem{
+    padding-bottom: 0.2rem!important;
+}
+.pb-04rem{
+    padding-bottom: 0.4rem!important;
+}
+.pb-06rem{
+    padding-bottom: 0.6rem!important;
+}
+.pb-08rem{
+    padding-bottom: 0.8rem!important;
 }
 .pb-1rem{
     padding-bottom: 1rem!important;
@@ -634,7 +676,7 @@
 }
 
 /* 
-字体大小
+字体样式
  */
 .f-04rem{
     font-size: 0.4rem!important;
@@ -658,6 +700,9 @@
     font-size: 1.8rem!important;
 }
 
+.f-bold{
+    font-weight: bold;
+}
 
 
 .red{
