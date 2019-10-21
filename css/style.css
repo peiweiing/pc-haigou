@@ -1,11 +1,8 @@
-body{
-	font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;
-}
 
 /* 
 盒子类型
  */
-.none{
+ .none{
     display: none!important;
 }
 .block{
@@ -14,6 +11,12 @@ body{
 .blocks{
     display: inline-block!important;
 }
+.float-l{
+    float: left;
+}
+.float-r{
+    float: right;
+}
 
 /* 
 弹性盒
@@ -21,29 +24,27 @@ body{
 .flex{
     display:flex!important;
 }
-
 .F-xy{
     display: flex!important;
     justify-content: center!important;
     align-items: center!important;
 }
 
-.f1{
-    flex: 1;
-}
-.f2{
-    flex: 2;
-}
-.f3{
-    flex: 3;
-}
-.f4{
-    flex: 4;
-}
-.f5{
-    flex: 5;
+/* 
+弹性盒换行排序
+ */
+.F-wrap{
+    display: flex!important;
+    flex-flow: wrap!important;
 }
 
+/* 
+弹性盒垂直排序
+ */
+.F-column{
+    display: flex!important;
+    flex-flow: column!important;
+}
 
 /* 
 弹性盒X轴排列
@@ -59,6 +60,10 @@ body{
 .FX-sa{
     display: flex!important;
     justify-content: space-around!important;
+}
+.FX-fe{
+    display: flex!important;
+    justify-content: flex-end!important;
 }
 
 /* 
@@ -77,45 +82,187 @@ body{
     align-items: flex-start!important;
 }
 
-/* 
-弹性盒换行排列
- */
-.F-wrap{
-    display: flex!important;
-    flex-flow: wrap!important;
+
+.f1{
+    flex: 1;
+}
+.f2{
+    flex: 2;
+}
+.f3{
+    flex: 3;
+}
+.f4{
+    flex: 4;
+}
+.f5{
+    flex: 5;
 }
 
-/* 
-弹性盒垂直排列
- */
-.F-column{
-    display: flex!important;
-    flex-flow: column!important;
+.o1{
+    order: 1
+}
+.o2{
+    order: 2
+}
+.o3{
+    order: 3
+}
+.o4{
+    order: 4
+}
+.o5{
+    order: 5
 }
 
+.w1{
+    width: 100%;
+}
+.w2{
+    width: 49%;
+}
+.w3{
+    width: 33%;
+}
+.w4{
+    width: 24%;
+}
+.w5{
+    width: 19%;
+}
 
 /* 
 盒子外边距
  */
+.m-02rem{
+    margin: 0.2rem!important;
+}
+.m-04rem{
+    margin: 0.4rem!important;
+}
+.m-06rem{
+    margin: 0.6rem!important;
+}
+.m-08rem{
+    margin: 0.8rem!important;
+}
 .m-1rem{
     margin: 1rem!important;
+}
+.m-2rem{
+    margin: 2rem!important;
+}
+.m-3rem{
+    margin: 3rem!important;
+}
+.m-4rem{
+    margin: 4rem!important;
+}
+.m-5rem{
+    margin: 5rem!important;
+}
+
+.ml-02rem{
+    margin-left: 0.2rem!important;
+}
+.ml-04rem{
+    margin-left: 0.4rem!important;
+}
+.ml-06rem{
+    margin-left: 0.6rem!important;
+}
+.ml-08rem{
+    margin-left: 0.8rem!important;
+}
+.ml-1rem{
+    margin-left: 1rem!important;
 }
 .ml-2rem{
     margin-left: 2rem!important;
 }
+.ml-4rem{
+    margin-left: 4rem!important;
+}
+.ml-5rem{
+    margin-left: 5rem!important;
+}
+.ml-6rem{
+    margin-left: 6rem!important;
+}
+.mr-1rem{
+    margin-right: 1rem!important;
+}
 .mr-2rem{
     margin-right: 2rem!important;
+}
+.mr-3rem{
+    margin-right: 3rem!important;
+}
+.mr-4rem{
+    margin-right: 4rem!important;
+}
+.mr-5rem{
+    margin-right: 5rem!important;
+}
+.mr-6rem{
+    margin-right: 6rem!important;
+}
+.mt-02rem{
+    margin-top: 0.2rem!important;
+}
+.mt-04rem{
+    margin-top: 0.4rem!important;
+}
+.mt-06rem{
+    margin-top: 0.6rem!important;
+}
+.mt-08rem{
+    margin-top: 0.8rem!important;
+}
+.mt-1rem{
+    margin-top: 1rem!important;
 }
 .mt-2rem{
     margin-top: 2rem!important;
 }
+.mt-3rem{
+    margin-top: 3rem!important;
+}
+.mt-4rem{
+    margin-top: 4rem!important;
+}
+.mt-5rem{
+    margin-top: 5rem!important;
+}
+.mt-6rem{
+    margin-top: 6rem!important;
+}
+.mb-1rem{
+    margin-bottom: 1rem!important;
+}
 .mb-2rem{
     margin-bottom: 2rem!important;
 }
+.mb-3rem{
+    margin-bottom: 3rem!important;
+}
+.mb-4rem{
+    margin-bottom: 4rem!important;
+}
+.mb-5rem{
+    margin-bottom: 5rem!important;
+}
+.mb-6rem{
+    margin-bottom: 6rem!important;
+}
 
 /* 
-盒子外边距左右
+盒子外边距X轴
  */
+.mx-02rem{
+    margin-left: 0.2rem!important;
+    margin-right: 0.2rem!important;
+}
 .mx-04rem{
     margin-left: 0.4rem!important;
     margin-right: 0.4rem!important;
@@ -152,6 +299,22 @@ body{
     margin-left: 2rem!important;
     margin-right: 2rem!important;
 }
+.mx-202rem{
+    margin-left: 2.2rem!important;
+    margin-right: 2.2rem!important;
+}
+.mx-204rem{
+    margin-left: 2.4rem!important;
+    margin-right: 2.4rem!important;
+}
+.mx-206rem{
+    margin-left: 2.6rem!important;
+    margin-right: 2.6rem!important;
+}
+.mx-208rem{
+    margin-left: 2.8rem!important;
+    margin-right: 2.8rem!important;
+}
 .mx-3rem{
     margin-left: 3rem!important;
     margin-right: 3rem!important;
@@ -166,8 +329,12 @@ body{
 }
 
 /* 
-盒子外边距上下
+盒子外边距Y轴
  */
+.my-02rem{
+    margin-top: 0.2rem!important;
+    margin-bottom: 0.2rem!important;
+}
 .my-04rem{
     margin-top: 0.4rem!important;
     margin-bottom: 0.4rem!important;
@@ -204,6 +371,22 @@ body{
     margin-top: 2rem!important;
     margin-bottom: 2rem!important;
 }
+.my-202rem{
+    margin-top: 2.2rem!important;
+    margin-bottom: 2.2rem!important;
+}
+.my-204rem{
+    margin-top: 2.4rem!important;
+    margin-bottom: 2.4rem!important;
+}
+.my-206rem{
+    margin-top: 2.6rem!important;
+    margin-bottom: 2.6rem!important;
+}
+.my-208rem{
+    margin-top: 2.8rem!important;
+    margin-bottom: 2.8rem!important;
+}
 .my-3rem{
     margin-top: 3rem!important;
     margin-bottom: 3rem!important;
@@ -223,22 +406,96 @@ body{
 .p-1rem{
     padding: 1rem!important;
 }
+.p-2rem{
+    padding: 2rem!important;
+}
+.p-3rem{
+    padding: 3rem!important;
+}
+.p-4rem{
+    padding: 4rem!important;
+}
+.p-5rem{
+    padding: 5rem!important;
+}
+
+.pl-1rem{
+    padding-left: 1rem!important;
+}
 .pl-2rem{
     padding-left: 2rem!important;
+}
+.pl-4rem{
+    padding-left: 4rem!important;
+}
+.pl-5rem{
+    padding-left: 5rem!important;
+}
+.pl-6rem{
+    padding-left: 6rem!important;
+}
+.pr-1rem{
+    padding-right: 1rem!important;
 }
 .pr-2rem{
     padding-right: 2rem!important;
 }
+.pr-3rem{
+    padding-right: 3rem!important;
+}
+.pr-4rem{
+    padding-right: 4rem!important;
+}
+.pr-5rem{
+    padding-right: 5rem!important;
+}
+.pr-6rem{
+    padding-right: 6rem!important;
+}
+.pt-1rem{
+    padding-top: 1rem!important;
+}
 .pt-2rem{
     padding-top: 2rem!important;
+}
+.pt-3rem{
+    padding-top: 3rem!important;
+}
+.pt-4rem{
+    padding-top: 4rem!important;
+}
+.pt-5rem{
+    padding-top: 5rem!important;
+}
+.pt-6rem{
+    padding-top: 6rem!important;
+}
+.pb-1rem{
+    padding-bottom: 1rem!important;
 }
 .pb-2rem{
     padding-bottom: 2rem!important;
 }
+.pb-3rem{
+    padding-bottom: 3rem!important;
+}
+.pb-4rem{
+    padding-bottom: 4rem!important;
+}
+.pb-5rem{
+    padding-bottom: 5rem!important;
+}
+.pb-6rem{
+    padding-bottom: 6rem!important;
+}
 
 /* 
-盒子内边距左右
+盒子内边距X轴
  */
+.px-02rem{
+    padding-left: 0.2rem!important;
+    padding-right: 0.2rem!important;
+}
 .px-04rem{
     padding-left: 0.4rem!important;
     padding-right: 0.4rem!important;
@@ -275,6 +532,22 @@ body{
     padding-left: 2rem!important;
     padding-right: 2rem!important;
 }
+.px-202rem{
+    padding-left: 2.2rem!important;
+    padding-right: 2.2rem!important;
+}
+.px-204rem{
+    padding-left: 2.4rem!important;
+    padding-right: 2.4rem!important;
+}
+.px-206rem{
+    padding-left: 2.6rem!important;
+    padding-right: 2.6rem!important;
+}
+.px-208rem{
+    padding-left: 2.8rem!important;
+    padding-right: 2.8rem!important;
+}
 .px-3rem{
     padding-left: 3rem!important;
     padding-right: 3rem!important;
@@ -289,8 +562,12 @@ body{
 }
 
 /* 
-盒子内边距上下
+盒子内边距Y轴
  */
+.py-02rem{
+    padding-top: 0.2rem!important;
+    padding-bottom: 0.2rem!important;
+}
 .py-04rem{
     padding-top: 0.4rem!important;
     padding-bottom: 0.4rem!important;
@@ -326,6 +603,22 @@ body{
 .py-2rem{
     padding-top: 2rem!important;
     padding-bottom: 2rem!important;
+}
+.py-202rem{
+    padding-top: 2.2rem!important;
+    padding-bottom: 2.2rem!important;
+}
+.py-204rem{
+    padding-top: 2.4rem!important;
+    padding-bottom: 2.4rem!important;
+}
+.py-206rem{
+    padding-top: 2.6rem!important;
+    padding-bottom: 2.6rem!important;
+}
+.py-208rem{
+    padding-top: 2.8rem!important;
+    padding-bottom: 2.8rem!important;
 }
 .py-3rem{
     padding-top: 3rem!important;
@@ -364,9 +657,7 @@ body{
 .f-108rem{
     font-size: 1.8rem!important;
 }
-.f-2rem{
-    font-size: 2rem!important;
-}
+
 
 
 .red{

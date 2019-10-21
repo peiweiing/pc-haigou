@@ -1,4 +1,7 @@
 
+.box{
+    background-color: #f2f2f2;
+}
 /* 
 页面顶部
  */
@@ -12,14 +15,8 @@
 .header .nml{
     margin-left: -10%;
 }
-.header form{
-    width: 45%;
-}
-.header .ninp{
-    padding: 0;
-}
 .header .ninp input:nth-child(2){
-    width: 26rem;
+    width: 25rem;
     height: 2.4rem;
     border: none;
 }
@@ -30,8 +27,11 @@
     color: #fff;
     background-color:red;
 }
+.header .nw0{
+    width: 0%;
+}
 .header .nshop{
-    width: 9rem;
+    width: 8rem;
     height: 2.4rem;
     color: #000;
     border: 1px solid #ccc;
@@ -91,4 +91,70 @@
 }
 .main .min .active{
     background-color: red;
+}
+
+
+/* 
+模块一
+ */
+ .moduleone .mtw1{
+    margin: 2rem 0;
+ }
+.moduleone .mtw1 img{
+    width: 26.7rem;
+    height: 16rem;
+}
+.moduleone .mtw{
+    margin: 2rem 0;
+    padding-left: 2rem;
+}
+.moduleone .mtw img{
+    width: 10rem;
+    height: 10rem;
+}
+.moduleone .mtw p{
+    padding: 0.6rem 0;
+}
+.moduleone .mtw span:last-child{
+    margin: 0.6rem 0;
+    padding: 0.2rem 1rem;
+    border: 1px solid #2e2e2e;
+    border-radius: 0.3rem;
+}
+
+/* 模块二 */
+.moduletwo .mr-056rem{
+    margin-right: 0.56rem;
+}
+.moduletwo .mt-06rem{
+    margin-top: 0.6rem;
+}
+
+/* 模块1F */
+.fone{
+    display: flex;
+    justify-content: center;
+}
+.fone .w2 a{
+    display: inline-block;
+    width: 470px;
+    height: 280px;
+}
+.fone .w2 img{
+    width:100%;
+}
+.fone .f-wrap{
+    column-count: 2;
+}
+.fone .onebgc{
+    background-color: #fff;
+}
+.fone .onebd{
+    border-top: 1px solid #ccc;
+}
+.fone .ulcs li{
+    list-style-type: disc;
+    color:rgb(172, 169, 169);
+    font-size: 0.8rem;
+    margin-left: 1.4rem;
 }
