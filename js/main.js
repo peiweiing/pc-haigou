@@ -20,29 +20,6 @@ $(document).ready(function(){
      showTime();
    });
     
-   //鼠标点击左侧的箭头
-//    $('.prev').click(function(){
-//      clearInterval(timer);
-//      if(i == 0){
-//        i = 5;//注意此时i的值
-//      }
-//      i--;
-//      Show();
-//      showTime();
-//    });
-    
-   //鼠标点击右侧的箭头
-//    $('.next').click(function(){
-//      clearInterval(timer);
-//      if(i == 4){
-//        i = -1;//注意此时i的值
-//      }
-//      i++;
-//      Show();
-//      showTime();
-//    });
-  
-    
  //创建一个showTime函数
  function showTime(){
    //定时器
@@ -69,3 +46,31 @@ $(document).ready(function(){
  }
    
  });
+
+var timer = null;
+window.onload = function(){
+	//开启定时器
+	timer = setInterval(show,100);
+	//回调函数
+	function show(){
+		var d1 = new Date();//获取到当前的时间
+		var d1Ms = d1.getTime();
+		var d2 = new Date("11 11,2019");
+		var d2Ms = d2.getTime();
+		var differMs = d2Ms-d1Ms;//相差的毫秒数
+		var date = parseInt(differMs/(3600*24*1000));//天
+		var hours = parseInt((differMs%(3600*24*1000))/(3600*1000));//1小时=3600s
+		var minutes =parseInt((differMs%(3600*1000))/(60*1000));//分钟
+		var seconds = parseInt((differMs%(60*1000))/1000);//秒
+		var ms = differMs%1000;//毫秒
+		//当前分秒为个位数字时，对其进行的处理
+		hours = hours<10?"0"+hours:hours;
+		minutes = minutes<10?"0"+minutes:minutes;
+		seconds = seconds<10?"0"+seconds:seconds;
+		// document.getElementById("spantime").innerHTML = date+"天"+hours+"小时"+ minutes+"分"+ seconds+"秒"+ ms;
+		document.getElementById("time-t").innerHTML =date;
+		document.getElementById("time-s").innerHTML =hours;
+		document.getElementById("time-f").innerHTML =minutes;
+		document.getElementById("time-m").innerHTML =seconds;
+	}	
+}

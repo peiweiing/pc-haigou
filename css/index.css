@@ -138,6 +138,31 @@
     border: 1px solid #2e2e2e;
     border-radius: 0.3rem;
 }
+.moduleone #spantime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    width: 16rem;
+    height: 1.8rem;
+    color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    position: absolute;
+    bottom: 0.8rem;
+    left: 20%;
+}
+.moduleone #spantime strong{
+    color: red;
+}
+.moduleone #spantime span{
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    height: 1.4rem;
+    margin-left: 0.4rem;
+    color: #fff;
+    background-color: salmon;
+}
 
 /* 模块二 */
 .moduletwo .mr-056rem{
