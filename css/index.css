@@ -121,8 +121,9 @@
     height: 16rem;
 }
 .moduleone .mtw{
-    margin: 2rem 0;
-    padding-left: 2rem;
+    background-color: #fff;
+    padding: 0 0.8rem;
+    margin-left: 0.2rem;
 }
 .moduleone .mtw img{
     width: 10rem;
@@ -144,6 +145,9 @@
 }
 .moduletwo .mt-06rem{
     margin-top: 0.6rem;
+}
+.moduletwo .spancs{
+    margin-left: -6rem;
 }
 
 /* 模块1F */
