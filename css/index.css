@@ -278,7 +278,7 @@
 /* 分类模块 */
 .classify .bgcs{
     width: 70rem;
-    height: 14rem;
+    height: 12rem;
     background-color:#fff;
 }
 .classify .bgcss{
@@ -317,17 +317,30 @@
     width: 18rem;
 }
 
+/* 
+分类模板已修改
+ */
+.classify{
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+}
 
 /* 模块1f已修改 */
 .fonebox{
     width: 1200px;
+    height: 610px;
     display: flex;
 }
 .fonebox .onel{
+    widows: 250px;
+    height: 610px;
     display: flex;
     flex-flow: column;
 }
 .fonebox .oner{
+    width: 950px;
+    height: 610px;
     display: flex;
     flex-flow: column;
 }
