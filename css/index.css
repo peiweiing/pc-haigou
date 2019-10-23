@@ -360,3 +360,78 @@
     width: 468px;
     height: 260px;
 }
+
+/* 登录模块 */
+
+.login{
+    width: 100%;
+    height: 560px;
+    background-color: #e93854;
+}
+.login .float-l,
+.login .float-r{
+    width:440px;
+    height:450px;
+}
+.login .float-l{
+    background: url(../img/login_back.png) no-repeat;
+}
+.login .logins{
+    background-color: #fff;
+    text-align: center;
+}
+.login .logins:nth-child(2) span{
+    width: 325px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+.login .logins:nth-child(2) span input{
+    width: 240px;
+    height: 30px;
+    border: none;
+}
+.login .logins button{
+    width: 325px;
+    height: 50px;
+    border:none;
+    background-color: red;
+}
+.login .size{
+    font-size: 0.8rem;
+}
+.login .size img{
+    width: 30px;
+}
+
+/* 注册模块 */
+
+.register{
+    width: 1040px;
+    height: 600px;
+    background-color: #fff;
+}
+.register .size{
+    width: 310px;
+    height: 40px;
+    margin: 0.6rem 0;
+}
+.register .sizel{
+    height: 100%;
+}
+.register .sizer{
+    height: 100%;
+}
+.register input{
+    border: none;
+}
+.register button{
+    border: none;
+    color: #fff;
+    background-color: red;
+}
+
+/* 找回密码 */
+
+.forget{
+    /* 空的 */
+}
