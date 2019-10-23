@@ -274,3 +274,76 @@
 .footer .fbgc a{
     color: #757272;
 }
+
+/* 分类模块 */
+.classify .bgcs{
+    width: 70rem;
+    height: 14rem;
+    background-color:#fff;
+}
+.classify .bgcss{
+    width: 8.6rem;
+    height: 3.6rem;
+}
+.classify .bgcss img{
+    width: 2.4rem;
+}
+.classify .bgcss:hover{
+    background-color:red;
+}
+
+.classone{
+    background-color: rgb(250, 243, 243);
+}
+.classone .textcss{
+    width: 500px;
+    border-top: 1px solid #ccc;
+}
+.classone .textcss span{
+    padding: 0.6rem;
+}
+.classone .textcss span:first-child{
+    color: darkgoldenrod;
+}
+.classone .textcss span:last-child{
+    color: red;
+}
+
+.classone .oneimg{
+    background-color: #fff;
+    margin: 1rem 0.4rem 2rem;
+}
+.classone .oneimg img{
+    width: 18rem;
+}
+
+
+/* 模块1f已修改 */
+.fonebox{
+    width: 1200px;
+    display: flex;
+}
+.fonebox .onel{
+    display: flex;
+    flex-flow: column;
+}
+.fonebox .oner{
+    display: flex;
+    flex-flow: column;
+}
+.fonebox .oner ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.fonebox .oner .oneb{
+    display: flex;
+    flex-flow: wrap;;
+}
+.fonebox .oner .oneb a{
+    width: 48%;
+    padding: 0.2rem 0.5rem;
+}
+.fonebox .oner .oneb a img{
+    width: 468px;
+    height: 260px;
+}
